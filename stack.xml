@@ -1,14 +1,17 @@
 <stack>
   <name>cob_extern</name>
+  <version>0.4.2</version>
   <description brief="Care-O-bot stack with external dependencies">
 
      The cob_extern stack contains third party libraries needed for operating Care-O-bot. The packages are downloaded from the manufactorers website and not changed in any way.
 
   </description>
 
-  <author>Maintained by Florian Weisshardt</author>
+  <author>Florian Weisshardt</author>
+  <maintainer>Florian Weisshardt</maintainer>
 
   <license>LGPL,proprietary</license>  
+  <copyright>Fraunhofer Institute for Manufacturing Engineering and Automation (IPA)</copyright>
 
   <review status="unreviewed" notes=""/>
   <url>http://ros.org/wiki/cob_extern</url>
@@ -17,5 +20,8 @@
   <build_depends>ros</build_depends>
 
   <depends>ros</depends>
+  <depends>linux-headers-generic</depends>
+  <depends>libpopt-dev</depends>
+  <depends>libusb-dev"</depends>
 
 </stack>
